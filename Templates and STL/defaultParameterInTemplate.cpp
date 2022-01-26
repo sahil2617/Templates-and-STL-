@@ -17,7 +17,7 @@ using namespace std;
     };
 
 int main(){
-        // just because i have set the default parameters in template, even if i dont pass the dataTypes While creating object it will automatically fetch the default dataTypes... But we have to put empty angular brackets '<>' after class keyword while creating object ...and if we pass dataTypes while object creation the default dataTypes will be modified
+        // just because i have set the default parameters in template, even if i dont pass the dataTypes While creating object it will automatically fetch the default dataTypes... But we have to put empty angular brackets '<>' after class keyword while creating object ...and if we pass dataTypes while object creation the default dataTypes will be ignored
         myClass <> obj1(3,53.5);
         obj1.display();
 return 0;

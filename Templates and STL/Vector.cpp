@@ -33,6 +33,7 @@ int main(){
         
         // erasing an element from the vector 
         myIterator = myVector.begin();        // pointing the iterator 
+        cout<<*myIterator;
         myVector.erase(myIterator,myIterator+2);
         display(myVector);
         

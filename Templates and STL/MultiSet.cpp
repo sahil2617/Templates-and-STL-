@@ -57,23 +57,26 @@ int main()
             // st.erase(3); // this erase method also takes the key to be erased. Key in the sense any specific element of the set, if that element is present in the multiset all the instances of it will be erased.
             // display(st);
 
-    // Finding the element in the set.. 
+    // Finding the element in the multiset.. 
             // auto it = st.find(6); ///st.find(element) method returns an iterator to the very first occurence of that element...and if the element is not found the iterator is returned to the st.end();
             // st.erase(it);   
             // display(st);
 
-    // Finding the size of any set 
+    // Finding the size of any multiset 
 
             // int sizeOfSet = st.size();
-            // cout<<"Size of the Set is:"<<sizeOfSet;
+            // cout<<"Size of the MultiSet is:"<<sizeOfSet;
 
 
-    // Deleting an entire Set 
+    // Deleting an entire multiSet 
             // Both the below method is used to clear an entire Set 
             // st.clear();
             // st.erase(st.begin(),st.end())
 
+    // count the no. of occurence of any element in the multiset
 
+            // st.count(element);
+            // cout<<st.count(3);
 
 
     return 0;
